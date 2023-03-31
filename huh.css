@@ -1,0 +1,81 @@
+.container
+{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: center;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.navigation
+{
+    background-color: ivory;
+    width: 200px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: dashed;
+    border-color: blue;
+    border-width: 3px;
+}
+
+.body
+{
+    background-color: white;
+    width: 1400px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*border-style: solid;
+    border-color: gray;
+    border-width: 3px;*/
+}
+
+.infobox
+{
+    font-size: 12px;
+    float: right;
+    width: 22em;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.season-1
+{
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+}
+
+/*.column-3
+{
+    text-align: center;
+    background-color: lightpink;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color:darkgray;
+    border-width: 1px;
+}
+
+.footer
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.footer-1
+{
+    margin-top: auto;
+    background-color: gray;
+    width: 2100px;
+    border-style: solid;    
+    border-color: black;
+    border-width: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+}
